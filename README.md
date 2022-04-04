@@ -34,7 +34,11 @@ The library also supports customizing one's own graph layout. You can set the fo
 ```bash
 Layout(g,force)
 ```
-Layout results are stored in *g* as coordinates.
+Layout results are stored in *g* as coordinates.  
+
+*We will release the C++ library after paper acepted.*
 
 ### Example
-The online demo for this library can be found [here](https://taurusgl.github.io/)
+The online demo for this library can be found [here](https://taurusgl.github.io/)  
+We compiled the C++ library into a WebAssembly module and load it into the JavaScript application, thus enabling the library to run on the browser side. WebAssembly is a low-level assembly-like language that can run C/C++ code on the Web at near-native speed.
+
