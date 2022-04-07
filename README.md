@@ -4,6 +4,9 @@ Taurus: Towards a Unified Force Representation and Universal Solver for Graph La
 ====
 Taurus is a general graph layout framework to unify popular graph layout methods. The novelty of Taurus consists of two major components: a unified quotient-based force representation to model repulsive and attractive forces of different graph drawing techniques, and a universal augmented stochastic gradient descent (SGD) solver to find the optimal graph layout results. We release this C++ graph layout library based on Taurus that facilitates convenient implementation of graph visualizations in a unified manner as well as customizing one's own graph layout techniques.
 
+### Example
+The ***online demo*** for this library can be found [here](https://taurusgl.github.io/)  
+We compiled the C++ library into a WebAssembly module and load it into the JavaScript application, thus enabling the library to run on the browser side. WebAssembly is a low-level assembly-like language that can run C/C++ code on the Web at near-native speed.
 
 ### Install
 windows and linux environment  
@@ -38,7 +41,5 @@ Layout results are stored in *g* as coordinates.
 
 *We will release the C++ library after paper acepted.*
 
-### Example
-The online demo for this library can be found [here](https://taurusgl.github.io/)  
-We compiled the C++ library into a WebAssembly module and load it into the JavaScript application, thus enabling the library to run on the browser side. WebAssembly is a low-level assembly-like language that can run C/C++ code on the Web at near-native speed.
+
 
