@@ -39,7 +39,7 @@ Layout(g,force)
 ```
 Layout results are stored in *g* as coordinates.  
 
-*We will release the C++ library after paper acepted.*
+*We have released the C++ library to this repository, under the code/ folder.*
 
 
 
