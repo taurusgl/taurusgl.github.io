@@ -27,7 +27,7 @@ g.initRandomPosition
 g.initPivotMDSPosition
 g.initPosition(filename)
 ```
-Taurus implements five graph layout methods: ***SM, FDP, LinLog, Maxent, BSM***. You can use these methods by inputting a graph by calling the corresponding interface. Multilevel methods, such as FM$^3$ and SFDP, will be included soon.
+Taurus implements five graph layout methods: ***SM, FDP, LinLog, Maxent, BSM, FM$^3$***. You can use these methods by inputting a graph by calling the corresponding interface.
 ```bash
 SMLayout(g)
 FDPLayout(g)
